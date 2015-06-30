@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="style.css"></link>
+	<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+	<script type="text/javascript" src="js/turn.js"></script>
+	
+	<title>Vinit Desai- VIRTUAL BOOK RESUME</title>
+</head>
+<body>
+<div id="flipbook">
+	<div class="hard odd" style="border-left:5px solid gray;" ><img src="images/cover.jpg" class="cover" alt=""> <p id="text">Vinit Desai</p> </div> 
+	<div class="page even"><a href="https://vinitsblog.wordpress.com" target="_blank">&nbsp;&nbsp;
+	<center>Vinit's Blog</center></a> <center>desaivinit9@gmail.com </center></div>
+	<div class="page odd">&nbsp;<center>Preview of Blog
+		&nbsp;&nbsp; <iframe src="https://vinitsblog.wordpress.com"></iframe></center>
+	</div>
+	<div class="page even"> &nbsp;&nbsp; <center>Technical</center>
+		<ul>
+			<li> HTML5, CSS3, JavaScript, XML, JSON </li>
+			<li>PHP, SASS, AngularJS, Bootstrap</li>	
+			<li>C, C++, nesC, Java, Python, SQL</li>
+			<li>Knowledge of Git, VCS</li>
+			<li>Photoshop, GIMP</li>	
+		</ul>
+	</div>
+	<div class="page odd">&nbsp; &nbsp; <center>  Achievements </center>  
+		<ul>
+			<li> Co-author of two technical research papers: 
+			&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+		 (i)A Comparative Study of TinyOS Scheduling strategies and Future scope 
+		   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+		   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+		   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+		 (ii)TinyOS survey and improvement of scheduling strategy 
+			<li>Presented a technical research paper at “International IRNet conference”</li>	
+			<li>Kala Academy Goa “All Goa Painting Contest” - merit</li>
+			<li>Recorded three Marathi music albums namely Mala Bhakticha; Bhakti Dhara; Bhakti Sangam </li>
+		</ul> 
+	</div>
+	<div class="page even">&nbsp; &nbsp; <center>  Portfolio  </center>
+		<img src="images/royal_int.png" alt="Logo" class="portfolio"> 
+		<img src="images/tempo traveller.png" alt="business Card" class="portfolio"> 
+		<img src="images/Template1.png" alt="Template" class="portfolio"> 
+		<img src="images/Template3.png" alt="Template" class="portfolio"> 
+		<img src="images/Infographics.jpg" alt="Infographics" class="portfolio"> 
+		<img src="images/Logo.jpg" alt="Logo" class="portfolio">
+	</div>
+	<div class="hard page even"><a href= http://vinitart.deviantart.com/gallery/ target="_blank">Click to View Portfolio </a></div> 
+	<div class="hard page odd"><img src="images/cover.jpg" class="cover" alt=""><p id="text">**Thank You**</p> </div>
+</div>
+<script type="text/javascript">
+	$("#flipbook").turn({
+		width: 700,
+		height: 400,
+		autoCenter: true
+		
+	});
+</script>
+
+</body>
+</html>
